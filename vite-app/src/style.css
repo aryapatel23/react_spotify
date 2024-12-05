@@ -1,0 +1,263 @@
+body{
+    width:100vw;
+    background-color: white;
+    overflow-x: hidden+;
+}
+.body{
+    display: flex;
+}
+.nav{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+}
+.spotilogo img{
+    width: 200px;
+    height: 60px;
+    justify-content: start;
+    margin-left: 30px;
+}
+.home{
+    font-size: 18px;
+    font-weight: 700;
+}
+.homeimg{
+    width: 300px;
+    background-color: #282828;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+.homeimg img{
+    width: 25px;
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.search{
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+
+}
+.search img{
+    width: 25px;
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.library{
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+.library img{
+    width: 25px;
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+
+}
+.playlist{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.createplaylist{
+    width: 200px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+.createplaylist img{
+    width: 25px;
+    height: 25px;
+    padding-right: 30px;
+}
+.likesong{
+    width: 200px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.likesong img{
+    height: 30px;
+    width: 30px;
+    padding-right: 30px;
+}
+.episode{
+    width: 200px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.episode img{
+    height: 30px;
+    width: 30px;
+    padding-right: 30px;
+}
+.favbar{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.fav{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.installapp{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.installapp img{
+    width: 25px;
+    height: 25px;
+    padding-right:30px;
+}
+.sidepage{
+    background-color: #1E1E1E;
+}
+.arrow{
+    display: flex;
+    margin-top: 30px;
+}
+.arrow .arrow1{
+    width: 90px;
+    height: 35px;
+    
+    margin-left: 50px;
+    
+}
+.arrow .account{
+    width: 120px;
+    height: 35px;
+    display: flex;
+    justify-content: end;
+    margin-left: 930px;
+    padding-right: 28px;
+}
+.goodmorning{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.firstfelx{
+    margin-left: 50px;
+    padding-right: 28px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+.firstele{
+    display: flex;
+    align-items: center;
+    background-color: #303030;
+    width: 270px;
+    border-radius: 5px;
+}
+.firstele img{
+    width: 80px;
+    height: 80px;
+    padding-right: 30px;
+}
+.secondele{
+    margin-left: 50px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #303030;
+    width: 270px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.secondele img{
+    width: 80px;
+    height: 80px;
+    padding-right: 30px;
+}
+.shows{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.flex2{
+    padding-left: 50px;
+    padding-right: 28px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+.people{
+    background-color: #181818;
+    width: 170px;
+
+}
+.people img{
+    width: 150px;
+    height: 150px;
+    padding: 10px 10px 20px 10px;
+    justify-content: center;
+}
+.people .div{
+    font-weight: 700;
+    padding-left: 10px;
+}
+.people div{
+    padding-left: 10px;
+    
+}
+.last{
+    display: flex;
+    align-items: center;
+    background-color: #181818;
+    margin-top: -5px;
+}
+.last .lastimg img{
+    height: 70px;
+    width: 70px;
+    padding: 8px 20px;
+
+}
+.last .lastsong {
+    font-weight: 700;
+    margin-left: 10px;
+}
+.last .lastsong div{
+    font-weight: 300;
+    font-size: 10px;
+}
+.last .heart {
+    margin-left: 30px;
+}
+.last .heart img{
+    width: 20px;
+    height: 20px;
+}
+.last .playsong{
+    margin-left: 300px;
+}
+.last .playsong img{
+    width: 500px;
+}
+.last .rightoption{
+    margin-left: 100px;
+}
+.last .rightoption img{
+    width: 300px;
+}
